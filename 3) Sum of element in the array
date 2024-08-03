@@ -1,0 +1,10 @@
+3)	Sum of element in the array:
+def sumlist(arr):
+    sum=0
+    for i in range(len(arr)):
+        sum = sum+arr[i]
+    return sum
+arr = [10, 9, 7, 5]
+print(arr)
+print("sum of list: ",sum(arr))
+
